@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kontakt</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+    />
+    <link rel="stylesheet" href="css/contact_styles.css" />
+    <header class="main-container">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="img/logo2.svg" alt="Logo von Arturs Reiseblog" />
+        </div>
+      </div>
+      <div class="header-img-container">
+        <div class="slogan">
+          Blog über Reisen,<br />
+          Katzen, Fußball<br />
+          und mehr...
+        </div>
+      </div>
+    </header>
+  </head>
+
+  <body>
+    <div class="main-nav">
+      <div class="navi-container">
+        <ul class="flex-container column">
+          <li class="flex-item"><a href="index.html">HOME</a></li>
+          <li class="flex-item"><a href="reiseziele.html">REISEZIELE</a></li>
+          <li class="flex-item"><a href="ueber_mich.html">ÜBER MICH</a></li>
+          <li class="flex-item"><a href="contact.html">KONTAKT</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div style="text-align: center">
+        <h2>Nimm mit mir Kontakt auf</h2>
+        <p>Schreib mir einfach, was Du über meinen Reiseblog denkst:</p>
+      </div>
+      
+        <div class="column">
+         
+            <label for="Vorname">Vorname</label>
+            <input
+              type="text"
+              id="Vorname"
+              name="Vorname"
+              placeholder="Dein Vorname.."
+            />
+            <label for="Nachname">Nachname</label>
+            <input
+              type="text"
+              id="Nachname"
+              name="Nachname"
+              placeholder="Dein Nachname.."
+            />
+            <label for="Land">Land</label>
+            <select id="Land" name="Land">
+              <option value="Deutschland">Deutschland</option>
+              <option value="other">Anderes Land</option>
+            </select>
+            <label for="Thema">Thema</label>
+            <textarea
+              id="Thema"
+              name="Thema"
+              placeholder="Schreib etwas rein.."
+              style="height: 170px"
+            ></textarea>
+            <input type="Abschicken" value="Abschicken" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

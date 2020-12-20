@@ -1,0 +1,113 @@
+.main-container {
+  display: flex;
+  /* flex-flow: row nowrap; */
+}
+
+.logo-container {
+  background-image: url("../img/Rectangle.svg");
+  background-repeat: no-repeat;
+
+  display: flex;
+  width: 30%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img-container {
+  background-image: url("../img/UDLW0019.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 70%;
+  height: 500px;
+  border-radius: 40px;
+  opacity: 0.6;
+}
+
+.slogan {
+  position: absolute;
+  top: 32px;
+  right: 116px;
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+
+  color: #0a57b1;
+}
+
+.header-img-container img {
+  background-position: top right;
+  border-radius: 40px;
+  opacity: 0.6;
+  max-height: 100%;
+}
+
+/* .header-img-container div {
+  position: absolute;
+} */
+
+#rectangle {
+  width: 308px;
+  height: 451.99px;
+  left: -81px;
+  top: -451px;
+  background: linear-gradient(
+    180deg,
+    rgba(42, 192, 239, 0.86) 27.08%,
+    rgba(42, 192, 239, 0) 100%
+  );
+  border-radius: 20px;
+  transform: rotate(-22.61deg);
+}
+
+.logo {
+  position: absolute;
+  width: 107.03px;
+  height: 56px;
+  left: 366.13px;
+  top: 58.97px;
+}
+
+.flex-item {
+  background: linear-gradient(
+    180deg,
+    rgba(104, 239, 133, 0.9) 88.02%,
+    rgba(104, 239, 133, 0) 100%
+  );
+  border-radius: 80px;
+
+  width: 317px;
+  height: 74px;
+  left: -25px;
+  top: 398px;
+
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navi-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navi-container ul {
+  /* position: relative; */
+  width: 308px;
+  height: 451.99px;
+  left: -75px;
+  top: -451px;
+}
+
+.navi-container li:hover {
+  background: #59ecca;
+}
